@@ -1,0 +1,35 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "defender-game",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonGusev111/Js2_Home_Work1_ESLint.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Anton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonGusev111/Js2_Home_Work1_ESLint/issues"
+  },
+  "homepage": "https://github.com/AntonGusev111/Js2_Home_Work1_ESLint#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2"
+  },
+  "dependencies": {
+    "core-js": "^3.25.0"
+  }
+}
